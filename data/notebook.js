@@ -1,0 +1,36 @@
+// Field notebook entries: k (id), title (once found), hint (shown while locked).
+// Ported from the prototype.
+export default [
+  { k: 'fine', title: 'A fine, calm day', hint: 'Rare as hen\'s teeth down here.' },
+  { k: 'cow', title: 'Cow in the mud', hint: 'After heavy rain, somewhere wet.' },
+  { k: 'soreback', title: 'Sheep over the fence (and your back)', hint: 'Stock get through gaps.' },
+  { k: 'sealion', title: 'Sea lion asleep on the landing', hint: 'Summer, by the shore.' },
+  { k: 'furseal', title: 'Fur seal on the far rocks', hint: 'Keep watching at dusk.' },
+  { k: 'sandflies', title: 'Sandflies on a still evening', hint: 'Summer, no wind.' },
+  { k: 'ferret', title: 'First ferret in a trap', hint: 'Keep the traps going.' },
+  { k: 'fence', title: 'A penguin bounces off the fence', hint: 'Fresh wire, early season.' },
+  { k: 'tent', title: 'A penguin in the old tent', hint: 'Somebody nosy.' },
+  { k: 'velvet', title: 'Velvet worm under a log', hint: 'Very rare. Deep in the old bush.' },
+  { k: 'korora', title: 'Little blue penguin in the count', hint: 'Not one of yours.' },
+  { k: 'titi', title: 'Tītī coming in at dusk', hint: 'Needs a thriving reserve.' },
+  { k: 'returned', title: 'A chick comes home', hint: 'Band them. Wait two years.' },
+  { k: 'family', title: 'Grandchicks', hint: 'A bird that hatched here, raising chicks of its own.' },
+  { k: 'hunter', title: 'Rang the hunter', hint: 'Pigs or deer in the reserve.' },
+  { k: 'workingbee', title: 'Working bee', hint: 'A thriving reserve draws volunteers.' },
+  { k: 'reception', title: 'One bar of reception', hint: 'Stand on the bumper.' },
+  // Added by the event at the start of a visit with the same id (data/events.js).
+  // sketch: draw it with another entry's picture.
+  { k: 'treeDown', title: 'Tree across the fence', hint: 'After a big blow.' },
+  { k: 'heifer', title: 'A note from the neighbour', hint: 'Check under the wiper.', sketch: 'cow' },
+  { k: 'stoatSeen', title: 'A stoat in broad daylight', hint: 'Someone at the car park has news.', sketch: 'ferret' },
+  { k: 'tramper', title: 'A lost tramper', hint: 'Someone always takes the wrong turn.' },
+  { k: 'volunteer', title: 'A spare pair of hands', hint: 'The branch looks after its own.' },
+  { k: 'nursery', title: 'Spare seedlings', hint: 'The nursery over-ordered.' },
+  { k: 'karearea', title: 'Kārearea overhead', hint: 'Look up.' },
+  { k: 'photographer', title: 'A word with a photographer', hint: 'Spring and summer, by the landing.' },
+  { k: 'sealPark', title: 'Seal in the car park', hint: 'Something big and sleepy.', sketch: 'furseal' },
+  { k: 'ranger', title: 'The ranger drops in', hint: 'Someone official, with biscuits.' },
+  { k: 'kereru', title: 'Kererū in the kōwhai', hint: "Spring, once they're back.", sketch: 'bird' },
+  { k: 'flatTyre', title: 'Flat tyre on the farm road', hint: 'The farm road is hard on tyres.' },
+  { k: 'wasps', title: 'Wasps in the bank', hint: 'Late summer, a dry bank.' },
+];
